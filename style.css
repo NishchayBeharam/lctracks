@@ -1,0 +1,13 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    font-family: 'Reg';
+}
+body {
+    background-color: #1D1D1D;
+}
