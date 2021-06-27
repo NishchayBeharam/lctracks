@@ -1,0 +1,142 @@
+@font-face
+{
+    font-family: 'Reg';
+    src: url(/font/reg.otf);
+}
+@font-face
+{
+    font-family: 'Bold';
+    src: url(/font/bold.otf);
+}
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    font-family: 'Reg';
+}
+body {
+    background-color: #1D1D1D;
+}
+.container 
+{
+    position: relative;
+    width: 320px;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.artwork img 
+{
+    width: 320px;
+}
+.header
+{
+    width: 100%;
+    margin: 20px 0px 30px;
+}
+.title
+{
+    font-family: 'Bold';
+    font-size: 36px;
+    line-height: 100%;
+    text-align: center;
+}
+.artists
+{
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.btns 
+{
+    width: 100%;
+}
+.btns ul
+{
+    width: 100%;
+}
+.btns ul li
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    transition: 160ms ease-in-out;
+    border: 1px solid rgba(255, 255, 255, 0.829);
+    background-color: #0a0a0a0c;
+    box-shadow: 0 0 5px transparent;
+    opacity: 0.9;
+}
+.btns ul li:hover 
+{
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.74);
+    border: 1px solid rgb(255, 255, 255);
+    transition: 160ms ease-in-out;
+    opacity: 1;
+}
+.socials
+{
+    width: 100%;
+    margin-top: 28px;
+}
+.socials ul
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.socials ul li
+{
+    width: 40px;
+    height: 40px;
+    padding: 0px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid white;
+    border-radius: 100%; */
+    opacity: 0.7;
+    transition: 160ms ease-in-out;
+    position: relative;
+}
+.socials ul li:hover
+{
+    opacity: 1;
+    transition: 160ms ease-in-out;
+}
+.socials ul li:hover .icon_hover {
+    opacity: 1;
+    transition: 160ms ease-in-out;
+}
+.icon_hover
+{
+    position: absolute;
+    height: 24px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    top: 100%;
+    opacity: 0;
+    transition: 160ms ease-in-out;
+    border-radius: 5px;
+    font-family: 'Bold';
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #1D1D1D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 100%;
+}
+.socials p
+{
+    text-align: center;
+    opacity: 0.7;
+}
