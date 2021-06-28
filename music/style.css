@@ -10,17 +10,24 @@
 body {
     background-color: #1D1D1D;
 }
+.preview
+{
+    height: 320px;
+    width: 100%;
+    max-width: 320px;
+}
 .container 
 {
     position: relative;
-    width: 320px;
+    max-width: 320px;
+    width: 80%;
     top: 50px;
     left: 50%;
     transform: translateX(-50%);
 }
 .artwork img 
 {
-    width: 320px;
+    width: 100%;
 }
 .header
 {
